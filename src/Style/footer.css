@@ -1,0 +1,78 @@
+.footer{
+    height: 10vh;
+    display: flex;
+    border-top: 1px solid #eee;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.logo_cont{
+    padding-left: 20px;
+}
+.logocon{
+    width: 25%;
+}
+#flogo{
+    width: 100%;
+}
+.fsl{
+    font-size: 15px;
+}
+.ssl{
+    font-size: 12px;
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+}
+.steps{
+    font-size: 20px;
+}
+@media screen and (max-width: 600px) {
+    .footer{
+        height: 8vh;
+        display: flex;
+        border-top: 1px solid #eee;
+    }
+    .left{
+        width: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .logo_cont{
+        padding-left: 10px;
+    }
+    .logocon{
+        width: 35%;
+        display: flex;
+        padding-top: 10px;
+    }
+    #flogo{
+        width: 100%;
+    }
+    .fsl{
+        font-size: 18px;
+    }
+    .ssl{
+        font-size: 15px;
+    }
+    .right{
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 40px;
+    }
+    .steps{
+        font-size: 25px;
+    }
+}

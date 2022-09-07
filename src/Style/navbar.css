@@ -1,0 +1,84 @@
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background: #0078C4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sign_details{
+    color: #ffffff;
+    padding-left: 40px;
+    width: 50%;
+}
+.fline{
+    font-size: 24px;
+}
+.lline{
+    font-size: 15px;
+}
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 40px;
+    width: 50%;
+}
+.logo_cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 30%;
+    height: 80%;
+}
+.digio_logo{
+    height: 80%;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        width: 100%;
+        height: 12vh;
+        background: #0078C4 0% 0% no-repeat padding-box;
+        opacity: 1;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        overflow-x: hidden;
+    }
+    .sign_details{
+        color: #ffffff;
+        padding-left: 10px;
+        width: 60%;
+    }
+    .fline{
+        font-size: 18px;
+    }
+    .lline{
+        font-size: 15px;
+    }
+    .logo{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 10px;
+        width: 40%;
+    }
+    .logo_cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        width: 80%;
+        height: 60%;
+    }
+    .digio_logo{
+        width: 100%;
+        height: 100%;
+    }
+    
+}

@@ -1,0 +1,91 @@
+.details_page{
+    position: relative;
+}
+.modalBodyContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.modalAadharContainer {
+    width: 25%;
+    
+}
+.modalAadharContainer img{
+    max-width: 100%;
+}
+.aadharForm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.modalFormContainer{
+    padding: 5px;
+    width: 75%;
+}
+.otpForm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.documentContainer{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.documentContainer img{
+    max-height: 80vh;
+    max-width: 100vw;
+}
+.successBanner{
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    width: 100vw;
+}
+.bannerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #bae0bd;
+    border: 2px solid #5E8858;
+}
+.bannerContainer img{
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.footerBtnContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerBtn{
+    width: 70%;
+    font-size: 2rem;
+    padding: 15px;
+    background-color: #0078C4;
+    cursor: pointer;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .footerBtn{
+        width: 70%;
+        font-size: 1rem;
+        padding: 15px;
+        background-color: #0078C4;
+        cursor: pointer;
+        color: white;
+        text-align: center;
+    }
+}

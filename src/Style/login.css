@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+.content{
+    height: 60vh;
+    padding: 10vh 15vh 10vh 10vh;
+}
+.cont_holder{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.upper{
+    height: 25%;
+}
+.info{
+    padding-bottom: 15px;
+}
+.fstline{
+    font-family: 'Montserrat', sans-serif;
+}
+.sndline{
+    padding-left: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+.gl_btn{
+    padding-left: 72px;
+    padding-bottom: 0%;
+}
+.google{
+    width: 100px;
+    height: 30px;
+    background-color: #D34836;
+    border: none;
+    color: antiquewhite;
+    font-size: medium;
+    border-radius: 6px;
+    
+}
+.or{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+}
+.line{
+    width: 90%;
+}
+.or_word{
+    padding-right: 15px;
+    font-weight: bolder;
+    font-size: large;
+}
+.lower{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.lebel{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+#email{
+    height: 28px;
+    width: 90%;
+}
+.input_box{
+    padding-bottom: 25px;
+}
+.con{
+    font-size: 15px;
+    font-weight: 400px;
+}
+.scon{
+    font-size: 15px;
+    font-weight: 400px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+}
+#btn{
+    width: 90%;
+    background-color: #005FB3;
+    color: white !important;
+    border: none;
+    height: 30px;
+}
+.link {
+    color: #FFF;
+  }
+@media screen and (max-width: 600px) {
+    .content{
+        height: 65vh;
+        padding: 5vh 4vh 5vh 4vh;
+    }
+    .cont_holder{
+        height: 65vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #email{
+        height: 35px;
+        width: 88%;
+    }
+    .or{
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding-left: 25px;
+        padding-bottom: 25px;
+    }
+    .upper{
+        height: 30%;
+    }
+    .info{
+        padding-bottom: 20px;
+    }
+    .or_word{
+        padding-right: 15px;
+        font-weight: bolder;
+        font-size: large;
+    }
+    .con{
+        font-size: 14px;
+        font-weight: 300px;
+
+    }
+    .scon{
+        font-size: 14px;
+        font-weight: 300px;
+        padding-bottom: 25px;
+        padding-left: 40px;
+    }
+}
+
+
+
